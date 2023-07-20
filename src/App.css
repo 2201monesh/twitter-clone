@@ -63,9 +63,73 @@ body{
     border-radius: 30px !important;
     height: 50px !important;
     margin-top: 20px !important;
+    max-width: 250px;
 }
 
 .feed{
     flex: 0.4;
     border-right: 1px solid var(--twitter-background);
+    overflow-y: scroll;
+    min-width: fit-content;
+    -ms-overflow-style: none; /* for IE and Edge */
+    scrollbar-width: none; /* for Firefox */
+}
+
+.feed--header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--twitter-background);
+    padding: 15px 20px;
+}
+
+.feed--header h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* for Chrome, Safari, Opera */
+.feed::-webkit-scrollbar{
+    display: none;
+}
+
+.tweetBox{
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--twitter-background);
+    padding-right: 10px;
+}
+
+.tweetBox form{
+    display: flex;
+    flex-direction: column;
+}
+
+.tweetBox--input{
+    padding: 20px;
+    display: flex;
+}
+
+.tweetBox--input input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+.tweetBox--tweetButton{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 800 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+    width: 100px;
+}
+
+.widgets{
+    flex: 0.3;
 }
