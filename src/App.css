@@ -130,6 +130,11 @@ body{
     width: 100px;
 }
 
+.tweetBox--imageInput{
+    border: none;
+    padding: 10px;
+}
+
 .widgets{
     flex: 0.3;
 }
