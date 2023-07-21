@@ -204,3 +204,16 @@ body{
 .widgets--searchIcon{
     color: gray;
 }
+
+.widgets--widgetContainer{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f3f8fa;
+    border-radius: 20px;
+}
+
+.widgets--widgetContainer h2{
+    font-size: 18px;
+    font-weight: 800;
+}
