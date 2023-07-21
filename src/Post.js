@@ -30,7 +30,7 @@ function Post({
               <p>Hello everyone, this is a twitter clone!!!!!!!!</p>
             </div>
         </div>
-        <img src="https://media3.giphy.com/media/65ATdpi3clAdjomZ39/giphy.gif" alt="" />
+        <img src="https://thumbs.gfycat.com/FrightenedAssuredAmethystsunbird-size_restricted.gif" alt="" />
 
         <div className="post--footer">
           <ChatBubbleOutlineIcon fontSize="small" />

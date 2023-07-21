@@ -22,6 +22,7 @@ function Widgets() {
         />
 
         <TwitterShareButton
+          className="widgets--tweetButton"
           url={""}
           options={{ text: "#This message is from a twitter clone made by Monesh Goyal", via: "GoyalMonesh" }}
         />  
