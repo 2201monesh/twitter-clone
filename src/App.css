@@ -185,3 +185,22 @@ body{
 .widgets{
     flex: 0.3;
 }
+
+.widgets--input{
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.widgets--input input{
+    border: none;
+    background-color: var(--twitter-background);
+}
+
+.widgets--searchIcon{
+    color: gray;
+}
