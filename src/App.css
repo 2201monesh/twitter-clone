@@ -160,6 +160,7 @@ body{
 .post--badge{
     font-size: 14px !important;
     color: var(--twitter-color);
+    margin: 0 5px;
 }
 
 .post--avatar{

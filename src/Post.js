@@ -17,20 +17,21 @@ function Post({
   return (
     <div className='post'>
       <div className="post--avatar">
-        <Avatar src="" />
+        <Avatar src={avatar} />
       </div>
       <div className="post--body">
         <div className="post--header">
             <div className="post--headerText">
-                <h3>Monesh Goyal <span className='post--headerSpecial'>
-                    <VerifiedIcon className='post--badge' />
+                <h3> {displayName}
+                <span className='post--headerSpecial'>
+                    { Verified && <VerifiedIcon className='post--badge' />}@{username}
                 </span></h3>
             </div>
             <div className="post--headerDescription">
-              <p>Hello everyone, this is a twitter clone!!!!!!!!</p>
+              <p>{text}</p>
             </div>
         </div>
-        <img src="https://thumbs.gfycat.com/FrightenedAssuredAmethystsunbird-size_restricted.gif" alt="" />
+        <img src={image} alt="" />
 
         <div className="post--footer">
           <ChatBubbleOutlineIcon fontSize="small" />

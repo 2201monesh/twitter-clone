@@ -10,7 +10,14 @@ function Feed() {
         </div>
 
         <TweetBox />
-        <Post />
+        <Post
+          displayName="Monesh Goyal"
+          username='goyalmonesh'
+          Verified
+          text="Yoooo it's working"
+          avatar=""
+          image="https://thumbs.gfycat.com/FrightenedAssuredAmethystsunbird-size_restricted.gif"
+         />
         <Post />
         <Post />
         <Post />
